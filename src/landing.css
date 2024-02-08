@@ -1,6 +1,6 @@
 /* Animazione del bottone "Acquista ora" */
 button {
-  background-color: #ff00ff;
+  background-color: rgb(0,157,255,0.5);
   color: #fff;
   border: none;
   border-radius: 50px;
@@ -11,8 +11,8 @@ button {
 }
 button:hover {
   transform: scale(1.1);
-  background-color: #fff;
-  color: #ff00ff;
+  background-color: rgb(0,157,255,0.5);
+  color: white;
 }
 
 /* Sezione "Chi siamo" */
@@ -129,7 +129,7 @@ background-color: #fff;
 box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
 .contact-section form input[type="submit"] {
-background-color: #ff00ff;
+background-color: rgb(0,157,255,0.5);
 color: #fff;
 border: none;
 border-radius: 5px;
@@ -140,7 +140,7 @@ transition: all 0.3s ease-in-out;
 }
 .contact-section form input[type="submit"]:hover {
 background-color: #fff;
-color: #ff00ff;
+color: rgb(0,157,255,0.5);
 }
 #chisiamo{
   width:50%;

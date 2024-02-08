@@ -26,7 +26,7 @@ class NFT extends React.Component {
   render() {
     return (
       <div>
-        <h1>Ecommerce di NFT</h1>
+        <h1>Ecommerce AcquaMarine</h1>
         <div className="nft-grid">
           {nfts.map((nft) => (
             <NftCard

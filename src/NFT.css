@@ -2,8 +2,8 @@
 
 /* Colori */
 :root {
-  --gold: #37ff00;
-  --black: #f906d8;
+  --gold: rgb(0,157,255,0.5);
+  --black: white;
 }
 
 /* Griglia NFT */

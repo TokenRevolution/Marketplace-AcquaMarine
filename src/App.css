@@ -220,8 +220,8 @@ transition: background-color 0.3s ease;
 }
 
 .btn-header:hover {
-background-color: #ff6699;
-color: white;
+background-color: white;
+color: rgb(0,157,255);
 }
 
 @keyframes headerTitleAnimation {

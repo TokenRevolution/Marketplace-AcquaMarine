@@ -6,7 +6,7 @@ const NftCard = ({ nft, onClick }) => {
       <img id="cardi" src={nft.image} alt={nft.name} />
       <h2>{nft.name}</h2>
       <p>{nft.description}</p>
-      <button>Check</button>
+      <button>VEDI IL CATALOGO</button>
     </div>
   );
 };
