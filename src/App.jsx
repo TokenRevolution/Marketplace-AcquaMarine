@@ -41,18 +41,6 @@ function App() {
           <li>
             <button onClick={() => setCurrentPage('NFT')}>NFT</button>
           </li>
-          <li>
-            <button onClick={() => setCurrentPage('Staking')}>Staking</button>
-          </li>
-          <li>
-            <button onClick={() => setCurrentPage('Reward')}>Reward</button>
-          </li>
-          <li>
-            <button onClick={() => setCurrentPage('Swap')}>Swap</button>
-          </li>
-          <li>
-            <button onClick={() => setCurrentPage('Games')}>Games</button>
-          </li>
         </ul>
       </nav>
       {renderPage()}
