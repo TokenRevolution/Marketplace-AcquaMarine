@@ -10,7 +10,7 @@ const NftModal = ({ nft, onClose }) => {
         <img id="cardiModal" src={nft.image} alt={nft.name} />
         <h2>{nft.name}</h2>
         <p>{nft.description}</p>
-        <a href={nft.link}><button>Buy</button></a>
+        <a href={nft.link}><button>AGGIUNGI AL CARRELLO</button></a>
       </div>
     </div>
   );
