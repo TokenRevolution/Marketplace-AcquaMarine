@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="./face.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CRAZYFROG Dapp</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: black;
+    }
+
+    #loader {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 999;
+    }
+
+    #loader-image {
+      display: block;
+      width: 80%;
+      height: 80%;
+      background-image: url("./face.png");
+      background-size: cover;
+    }
+
+    #content {
+      display: none;
+    }
+
+    #music-controls {
+      position: fixed;
+      bottom: 10px;
+      right: 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      color: white;
+    }
+
+    #time-control {
+      display: flex;
+      align-items: center;
+      margin-bottom: 5px;
+      display:none;
+    }
+
+    #time-slider {
+      width: 150px;
+      margin-right: 5px;
+      display:none;
+    }
+    #song-controls{
+      background:rgb(0,0,0,0.5);
+      z-index:999;
+    }
+    @media only screen and (max-width: 1000px) {
+    #song-controls{
+              width: 100%;
+            position: fixed;
+            top: 75%;
+      right: 0%;
+        }
+      #prev-song-button{
+        width:25%;
+        font-size:1em;
+      }
+      #play-button{
+        width: 25%;
+    font-size: 1em;
+      }
+      #stop-button{
+        width: 25%;
+    font-size: 1em;
+      }
+      #next-song-button{
+        width: 25%;
+    font-size: 1em;
+      }
+    }
+  </style>
+  <script>
+    // Inserisci qui la tua lista di canzoni
+    var songs = [
+      "crazyfrog.mp3",
+      "CrazyFrog2.mp3",
+      "CrazyFrog3.mp3",
+      "CrazyFrog4.mp3",
+      "CrazyFrog5.mp3",
+      "CrazyFrog6.mp3",
+      "CrazyFrog7.mp3",
+      "CrazyFrog8.mp3",
+      "CrazyFrog9.mp3"
+    ];
+
+    var currentSongIndex = 0;
+
+    function showContent() {
+      var audioPlayer = document.getElementById('audio-player');
+      audioPlayer.src = songs[currentSongIndex];
+
+      var playButton = document.getElementById('play-button');
+      playButton.addEventListener('click', function() {
+        audioPlayer.play();
+      });
+
+      var timeSlider = document.getElementById('time-slider');
+      var currentTime = document.getElementById('current-time');
+      var totalTime = document.getElementById('total-time');
+      timeSlider.max = audioPlayer.duration;
+      totalTime.textContent = formatTime(audioPlayer.duration);
+
+      audioPlayer.ontimeupdate = function() {
+        timeSlider.value = audioPlayer.currentTime;
+        currentTime.textContent = formatTime(audioPlayer.currentTime);
+      };
+
+      document.getElementById('loader').style.display = 'none';
+      document.getElementById('content').style.display = 'block';
+    }
+
+    function formatTime(time) {
+      var minutes = Math.floor(time / 60);
+      var seconds = Math.floor(time % 60).toString().padStart(2, '0');
+      return minutes + ':' + seconds;
+    }
+
+    function stopSong() {
+      var audioPlayer = document.getElementById('audio-player');
+      audioPlayer.pause();
+      audioPlayer.currentTime = 0;
+    }
+
+    function prevSong() {
+      currentSongIndex--;
+      if (currentSongIndex < 0) {
+        currentSongIndex = songs.length - 1;
+      }
+      showContent();
+    }
+
+    function nextSong() {
+      currentSongIndex++;
+      if (currentSongIndex >= songs.length) {
+        currentSongIndex = 0;
+      }
+      showContent();
+    }
+
+    document.addEventListener('DOMContentLoaded', function () {
+      document.getElementById('loader').style.display = 'flex';
+      document.getElementById('content').style.display = 'none';
+
+      setTimeout(showContent, 5000);
+    });
+  </script>
+</head>
+<body>
+  <div id="loader">
+    <div id="loader-image"></div>
+  </div>
+
+  <div id="content">
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="https://media.tenor.com/-cU0-RfoTqYAAAAi/crazy-frog-png.gif" alt="CRAZYFROG Coin Logo" />
+        </div>
+        <div class="collage">
+          <img id="collage1" src="https://openseauserdata.com/files/47234a2441ba48a43317588122361b82.png" />
+          <img id="collage2" src="https://metabeats.io/wp-content/uploads/2021/12/metabeats_crazy_frog_riding_header.png" />
+          <img id="collage3" src="./collage3.png" />
+          <img id="collage4" src="./collage4.png" />
+          <img id="collage5" src="https://art.ngfiles.com/images/2225000/2225008_alexanderamcdonald_crazy-frog-punch-out-portrait.png?f1638814123" />
+          <img id="collage6" src="./collage6.png" />
+          <img id="collage7" src="./collage7.png" />
+          <img id="collage8" src="./collage8.png" />
+        </div>
+      </nav>
+      <div class="header-content">
+        <h1 class="header-title">CRAZYFROG DApp: Explore, Stake, and Earn</h1>
+      </div>
+    </header>
+    <div id="root"></div>
+    <audio id="audio-player" preload="auto"></audio>
+    <div id="music-controls">
+      <div id="time-control">
+        <input id="time-slider" type="range" min="0" max="100" value="0" step="1" />
+        <span id="current-time">0:00</span> / <span id="total-time">0:00</span>
+      </div>
+      <div id="song-controls">
+        <button id="prev-song-button" onclick="prevSong()">Previous Song</button>
+        <button id="play-button">Play</button>
+        <button id="stop-button" onclick="stopSong()">Stop</button>
+        <button id="next-song-button" onclick="nextSong()">Next Song</button>
+      </div>
+    </div>
+    <script type="module" src="/src/index.jsx"></script>
+  </div>
+</body>
+</html>

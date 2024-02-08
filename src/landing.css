@@ -1,0 +1,179 @@
+/* Animazione del bottone "Acquista ora" */
+button {
+  background-color: #ff00ff;
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.2rem;
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+button:hover {
+  transform: scale(1.1);
+  background-color: #fff;
+  color: #ff00ff;
+}
+
+/* Sezione "Chi siamo" */
+.about-section {
+  background-color: #042a37;
+  color: #fff;
+  padding: 50px 0;
+  animation: headerTitleAnimation 3s ease-in-out;
+}
+.about-section h2 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+.about-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+.about-section img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+.about-section img:hover {
+  transform: scale(1.1);
+}
+
+/* Sezione "Cosa offre URANO" */
+.features-section {
+  background-color: rgb(255 0 255 / 50%);
+  color: #fff;
+  padding: 50px 0;
+  height:450px;
+}
+.features-section h2 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+.features-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.features-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+.features-section img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+.features-section img:hover {
+  transform: scale(1.1);
+}
+
+/* Sezione "Il nostro team" */
+.team-section {
+  background-color: rgb(255,255,255,0.5);
+  padding: 50px 0;
+  height: 500px;
+}
+.team-section h2 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+.team-section h3 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.team-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+.team-section img {
+  width: 30%;
+  border-radius: 50%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+.team-section img:hover {
+  transform: scale(1.1);
+}
+
+/* Sezione "Contattaci" */
+.contact-section {
+  background-color: #042a37;
+  color: #fff;
+  padding: 50px 0;
+}
+.contact-section h2 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+.contact-section p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+.contact-section form label {
+  display: block;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color:white;
+;}
+.contact-section form input[type="text"], .contact-section form input[type="email"], .contact-section form textarea {
+width: 100%;
+padding: 10px;
+margin-bottom: 20px;
+border: none;
+border-radius: 5px;
+font-size: 1.2rem;
+color: #333;
+background-color: #fff;
+box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.contact-section form input[type="submit"] {
+background-color: #ff00ff;
+color: #fff;
+border: none;
+border-radius: 5px;
+font-size: 1.2rem;
+padding: 10px 30px;
+cursor: pointer;
+transition: all 0.3s ease-in-out;
+}
+.contact-section form input[type="submit"]:hover {
+background-color: #fff;
+color: #ff00ff;
+}
+#chisiamo{
+  width:50%;
+}
+#features{
+  width:10%;
+}
+.container{
+  padding:2%;
+}
+#teami{
+    width: 26%;
+    height: auto;
+    float: left;
+    margin: 1.6%;
+}
+#teamt{
+  color:black !important;
+}
+
+#headi{
+  color:white !important;
+  margin:2%;
+}
+#featuresd{
+  width: 26%;
+  float: left;
+  margin: 1.6%;
+}
+#contact{
+  width:5%;
+  margin:2%;
+}
+@media (max-width: 1000px) {
+  
+}

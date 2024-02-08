@@ -1,0 +1,58 @@
+export const nfts = [
+  {
+    id: 1,
+    name: "THE MOST IMPORTANT",
+    image: "https://media.tenor.com/3oy75SEPMPUAAAAM/crazy-frog.gif",
+    description: "CRAZY FROG Collection n. 1",
+    link: "https://opensea.io/collection/CRAZY FROGthemostimportant",
+  },
+  {
+    id: 2,
+    name: "PERV CRAZY FROG ",
+    image: "https://phoneky.co.uk/thumbs/screensavers/down/abstract/crazyfrogg_e6lfuqz6.gif",
+    description: "CRAZY FROG Collection n. 2",
+    link: "https://opensea.io/collection/PERV",
+  },
+  {
+    id: 3,
+    name: "DOGGY STYLE CRAZY FROG ",
+    image: "https://downloadwap.com/thumbs3/screensavers/d/3/cartoon-anime/crazy-frog4707-twilightwap.com.gif",
+    description: "CRAZY FROG  Collection n. 3",
+    link: "https://opensea.io/collection/greenCRAZY FROG",
+  },
+  {
+    id: 4,
+    name: "UNSAPECTED CRAZY FROG ",
+    image: "https://thumbs.gfycat.com/BlaringSickGrasshopper-size_restricted.gif",
+    description: "CRAZY FROG  Collection n. 4",
+    link: "https://opensea.io/collection/orangewarrioirs",
+  },
+  {
+    id: 5,
+    name: "AFTER OF CRAZY FROG ",
+    image: "https://y.yarn.co/17eec9b0-d8e1-450d-9b53-9b69bff56ee0_text.gif",
+    description: "CRAZY FROG  Collection n. 5",
+    link: "https://opensea.io/collection/purple",
+  },
+  {
+    id: 6,
+    name: "CURVE OF CRAZY FROG ",
+    image: "https://media.tenor.com/CntwAJzd7gUAAAAM/crazy-frog.gif",
+    description: "CRAZY FROG  Collection n. 6",
+    link: "https://opensea.io/collection/blue",
+  },
+  {
+    id: 7,
+    name: "ACCIDENT OF CRAZY FROG ",
+    image: "https://media4.giphy.com/media/WT7sq3itFvYR3kKlJ5/giphy.gif",
+    description: "CRAZY FROG  Collection n. 7",
+    link: "https://opensea.io/collection/CRAZY FROG-gold-",
+  },
+  {
+    id: 8,
+    name: "RANDOM IDIOTS",
+    image: "https://thumbs.gfycat.com/AcceptableFlickeringBarbet-size_restricted.gif",
+    description: "CRAZY FROG  Collection n. 8",
+    link: "https://opensea.io/collection/fashionmuseum",
+  },
+];
