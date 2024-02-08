@@ -64,10 +64,11 @@
     }
     @media only screen and (max-width: 1000px) {
     #song-controls{
-              width: 100%;
+            width: 100%;
             position: fixed;
             top: 75%;
-      right: 0%;
+            right: 0%;
+            display: none;
         }
       #prev-song-button{
         width:25%;
@@ -167,22 +168,11 @@
   <div id="loader">
     <div id="loader-image"></div>
   </div>
-
   <div id="content">
     <header>
       <nav>
         <div class="logo">
-          <img src="https://media.tenor.com/-cU0-RfoTqYAAAAi/crazy-frog-png.gif" alt="CRAZYFROG Coin Logo" />
-        </div>
-        <div class="collage">
-          <img id="collage1" src="https://openseauserdata.com/files/47234a2441ba48a43317588122361b82.png" />
-          <img id="collage2" src="https://metabeats.io/wp-content/uploads/2021/12/metabeats_crazy_frog_riding_header.png" />
-          <img id="collage3" src="./collage3.png" />
-          <img id="collage4" src="./collage4.png" />
-          <img id="collage5" src="https://art.ngfiles.com/images/2225000/2225008_alexanderamcdonald_crazy-frog-punch-out-portrait.png?f1638814123" />
-          <img id="collage6" src="./collage6.png" />
-          <img id="collage7" src="./collage7.png" />
-          <img id="collage8" src="./collage8.png" />
+          <img src="https://cdn-icons-png.flaticon.com/512/6411/6411727.png" />
         </div>
       </nav>
       <div class="header-content">
@@ -196,7 +186,7 @@
         <input id="time-slider" type="range" min="0" max="100" value="0" step="1" />
         <span id="current-time">0:00</span> / <span id="total-time">0:00</span>
       </div>
-      <div id="song-controls">
+      <div style="display:none;" id="song-controls">
         <button id="prev-song-button" onclick="prevSong()">Previous Song</button>
         <button id="play-button">Play</button>
         <button id="stop-button" onclick="stopSong()">Stop</button>

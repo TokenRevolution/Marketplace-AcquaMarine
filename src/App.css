@@ -251,11 +251,13 @@ text-shadow: 2px 2px black;
 .logo img {
 border-radius: 50%;
 width: 25%;
+z-index:999;
 }
 #collage1{
   width: 25%;
   top:10%;
   position:absolute;
+  z-index:-1;
   animation:OpacityAnimation 2s;
 }
 #collage2{
@@ -263,14 +265,14 @@ width: 25%;
   top:10%;
   right:50%;
   position:absolute;
-  z-index:1;
+  z-index:-1;
   animation:OpacityAnimation 3s;
 }
 #collage3{
   width: 25%;
   top:10%;
   position:absolute;
-  z-index:2;
+  z-index:-1;
   left:10%;
   animation:OpacityAnimation 4.5s;
 }
@@ -278,7 +280,7 @@ width: 25%;
   width: 25%;
   top:5%;
   position:absolute;
-  z-index:2;
+  z-index:-1;
   right:2%;
   animation:OpacityAnimation 6s;
 }
@@ -286,14 +288,14 @@ width: 25%;
   width: 23%;
   top:5%;
   position:absolute;
-  z-index:1;
+  z-index:-1;
   right:15%;animation:OpacityAnimation 6.5s;
 }
 #collage6{
   width: 25%;
   top:30%;
   position:absolute;
-  z-index:5;
+  z-index:-1;
   right:0%;
   animation:OpacityAnimation 7s;
 }
@@ -301,7 +303,7 @@ width: 25%;
   width: 35%;
   top:28%;
   position:absolute;
-  z-index:4;
+  z-index:-1;
   left:5%;
   animation:OpacityAnimation 8.5s;
 }
@@ -309,7 +311,7 @@ width: 25%;
   width: 25%;
   top:2%;
   position:absolute;
-  z-index:1;
+  z-index:-1;
   left:5%;
   animation:OpacityAnimation 10s;
 }
