@@ -7,20 +7,20 @@ const LandingPage = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-6">
-              <h2 id="crazyfrogtitle">CRAZY FROG</h2>
-<p>Welcome to the world of Crazy Frog, the meme coin that defies all logic and reason! In this absurd and utterly pointless cryptocurrency, you'll find yourself immersed in a world of laughter and amusement. Prepare to embark on a wild ride filled with memes, jokes, and endless entertainment. While it may be utterly useless, Crazy Frog is sure to leave you in stitches and questioning the very nature of cryptocurrency.</p>
+              <h2 id="acquamarinetitle">ACQUAMARINE</h2>
+              <p>Benvenuti nel mondo di Acquamarine, l'azienda che vi permette di godere di soccorso in mare tramite pezzi di ricambio e assistenza, e offre anche opzioni per feste e divertimento direttamente in mare tramite il suo ecommerce. Con Acquamarine, potete avere tutto ciò di cui avete bisogno per un'esperienza perfetta in acqua e sulla vostra imbarcazione.</p>
 
-A Coin Like No Other:
-<p>Crazy Frog is not your typical cryptocurrency. It doesn't promise groundbreaking technology or revolutionary solutions. Instead, it thrives on sheer absurdity and the ability to make people laugh. With its vibrant and ridiculous frog-themed logo, it instantly captures attention and sparks curiosity. But beware, once you enter the world of Crazy Frog, there's no turning back from the whirlwind of laughter that awaits you.</p>
+              <p>Un'azienda Come Nessun'altra:</p>
+              <p>Acquamarine non è solo un'azienda ordinaria nel settore marittimo. Non solo fornisce pezzi di ricambio e assistenza, ma anche opportunità per il divertimento in mare. Con il suo vasto assortimento di prodotti e servizi, Acquamarine si distingue per l'eccellenza nel garantire sia sicurezza in mare che momenti indimenticabili sulla vostra imbarcazione.</p>
 
-The Value of Laughter:
-<p>While other cryptocurrencies aim to provide financial stability or enhance transactions, Crazy Frog's value lies solely in its ability to bring joy and amusement. Its fluctuating price is not tied to any economic indicators but rather to the whims of internet humor. The more outrageous the memes, the higher the value of Crazy Frog. It's a refreshing break from the seriousness of traditional finance, reminding us that laughter can be the best investment.</p>
+              <p>Il Valore del Divertimento:</p>
+              <p>Mentre altre aziende si concentrano sulla funzionalità e sull'efficienza, Acquamarine mette in primo piano il valore del divertimento e dell'esperienza positiva. Ogni prodotto e servizio offerto è progettato per garantire non solo prestazioni ottimali ma anche un'esperienza divertente e indimenticabile. Con Acquamarine, il divertimento è sempre garantito.</p>
 
-Meme Magic in Action:
-<p>Crazy Frog thrives on the power of memes. Internet communities come together to create and share hilarious content featuring our beloved amphibian friend. From catchy remixes of the Crazy Frog song to animated GIFs and viral videos, the meme magic keeps the coin alive. Each new meme has the potential to send the Crazy Frog coin skyrocketing into meme folklore, defying all expectations and rationality.</p>
+              <p>La Magia dell'Acquamarine:</p>
+              <p>Acquamarine crea magia attraverso l'offerta di esperienze uniche e indimenticabili in mare e in mare. Dai salvagenti e attrezzature di sicurezza alle forniture per feste e giochi sulla vostra imbarcazione, ogni prodotto è pensato per portare gioia e divertimento agli utenti. L'esperienza con Acquamarine è qualcosa di magico che rimarrà nei ricordi per sempre.</p>
 
-Join the Crazy Frog Community:
-<p>Being part of the Crazy Frog community means embracing the absurdity and letting go of any expectations of utility. It's a gathering of like-minded individuals who appreciate the value of humor and memes. Together, we celebrate the sheer joy of laughter and create a unique space where the only rule is to have fun. Whether you're a meme connoisseur or just looking for a good laugh, Crazy Frog welcomes you with open arms.</p>
+              <p>Unisciti alla Community di Acquamarine:</p>
+              <p>Essere parte della community di Acquamarine significa abbracciare il divertimento e l'avventura in mare e in mare. Condividere momenti indimenticabili con amici e familiari diventa ancora più speciale grazie ai prodotti e servizi offerti da Acquamarine. Unisciti a noi e vivi ogni momento al massimo.</p>
             </div>
             <div className="col-md-6">
               <img id="chisiamo" src="./face.png" alt="Chi siamo" />
@@ -28,8 +28,8 @@ Join the Crazy Frog Community:
           </div>
         </div>
       </section>
-</div>
-);
+    </div>
+  );
 };
 
 export default LandingPage;

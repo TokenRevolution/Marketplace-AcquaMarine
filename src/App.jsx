@@ -39,7 +39,7 @@ function App() {
             <button onClick={() => setCurrentPage('Home')}>Home</button> {/* Aggiungi il pulsante Home */}
           </li>
           <li>
-            <button onClick={() => setCurrentPage('NFT')}>NFT</button>
+            <button onClick={() => setCurrentPage('NFT')}>E-Commerce & Delivery</button>
           </li>
         </ul>
       </nav>
