@@ -16,12 +16,14 @@
 
 /* Card NFT */
 .nft-card {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: #000000b3;
   padding: 20px;
   border-radius: 10px;
-  transition: transform 0.3s ease-in-out;
+  transition: transform .3s ease-in-out;
   cursor: pointer;
-  color:white;
+  color: #fff;
+  width: 80%;
+  margin: 5%;
 }
 
 .nft-card:hover {
