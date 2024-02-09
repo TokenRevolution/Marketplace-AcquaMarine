@@ -17,7 +17,7 @@ line-height: 100vh;
 }
 
 #root {
-background: linear-gradient(-30deg,rgb(0,157,255,0.5), rgb(255, 200, 0,0.5),rgb(0,157,255,0.5), rgb(0,255,0,0.5), rgb(0,157,255,0.5), rgb(0,255,0,0.5), rgb(0,157,255,0.5), rgb(0,255,0,0.5)); 
+background: linear-gradient(-30deg,rgb(0,157,255,0.5), rgb(255,255,255,0.5),rgb(0,157,255,0.5), rgb(255,255,255,0.5), rgb(0,157,255,0.5), rgb(255,255,255,0.5), rgb(0,157,255,0.5), rgb(255,255,255,0.5)); 
 }
 
 #stake {
@@ -41,13 +41,13 @@ color:white;
 
 body {
 text-align: center;
-background: linear-gradient(30deg, rgb(0,157,255,0.5), rgb(255, 200, 0,0.5), rgb(0,157,255,0.5), rgb(255, 200, 0,0.5), rgb(0,157,255,0.5), rgb(255, 200, 0,0.5), rgb(0,157,255,0.5), rgb(255, 200, 0,0.5)); /* Cambiato il colore di sfondo /
+background: linear-gradient(30deg, rgb(0,157,255,0.5), rgb(255,255,255,0.5), rgb(0,157,255,0.5), rgb(255,255,255,0.5), rgb(0,157,255,0.5), rgb(255,255,255,0.5), rgb(0,157,255,0.5), rgb(255,255,255,0.5)); /* Cambiato il colore di sfondo /
 background-size: 100% 100%;
 --w3m-accent-color: rgb(0,157,255,0.5); / Cambiato il colore accent /
 --w3m-background-color: rgb(255, 200, 0,0.5); / Cambiato il colore di sfondo */
 }
 header {
-    background: linear-gradient(-30deg,rgb(0,157,255,0.5), rgb(0,255,0,0.5),rgb(0,157,255,0.5), rgb(0,255,0,0.5), rgb(0,157,255,0.5), rgb(0,255,0,0.5), rgb(0,157,255,0.5), rgb(0,255,0,0.5)); 
+    background: linear-gradient(-30deg,rgb(0,157,255,0.5), rgb(255,255,255,0.5),rgb(0,157,255,0.5), rgb(255,255,255,0.5), rgb(0,157,255,0.5), rgb(255,255,255,0.5), rgb(0,157,255,0.5), rgb(255,255,255,0.5)); 
     padding: 20px;
     color: white;
     text-align: center;
@@ -250,7 +250,7 @@ text-shadow: 2px 2px black;
 
 .logo img {
 border-radius: 50%;
-width: 35%;
+width: 100%;
 z-index:999;
 }
 #collage1{
