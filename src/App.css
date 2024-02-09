@@ -538,7 +538,7 @@ filter: brightness(120%);
 
 @media only screen and (max-width: 1000px) {
 header{
-height:150px;    
+height:auto;    
   }
 #collage6{
  top:20%; 
