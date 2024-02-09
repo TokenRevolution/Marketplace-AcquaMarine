@@ -2,7 +2,7 @@ export const catalogo = [
   {
     id: 1,
     name: "Ferramenta",
-    image: "src/ACQUAMARINE-removebg-preview.png",
+    image: "https://i.ibb.co/4tjyKJL/ACQUAMARINE-removebg-preview.png",
     description: "Prezzo € 10 Cad.",
     link: "https://opensea.io/collection/CRAZY FROGthemostimportant",
   },
