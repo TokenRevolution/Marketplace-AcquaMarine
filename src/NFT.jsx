@@ -2,6 +2,7 @@ import React from "react";
 import NftCard from "./NftCard";
 import NftModal from "./NftModal";
 import { nfts } from "./nfts";
+import { catalogo } from "./catalogo";
 
 class NFT extends React.Component {
   state = {
@@ -9,10 +10,10 @@ class NFT extends React.Component {
     selectedNft: null,
   };
 
-  handleOpenModal = (nft) => {
+  handleOpenModal = (catalogo) => {
     this.setState({
       showModal: true,
-      selectedNft: nft,
+      selectedNft: catalogo,
     });
   };
 
@@ -38,7 +39,7 @@ class NFT extends React.Component {
         </div>
         {this.state.showModal && (
           <NftModal
-            nft={this.state.selectedNft}
+            catalogo={this.state.selectedNft}
             onClose={this.handleCloseModal}
           />
         )}

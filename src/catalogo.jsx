@@ -1,0 +1,58 @@
+export const catalogo = [
+  {
+    id: 1,
+    name: "Ferramenta",
+    image: "https://cdn-icons-png.flaticon.com/512/6411/6411727.png",
+    description: "LUN - SAB: 8:00 - 18:00 / DOM: 8:00-14:00",
+    link: "https://opensea.io/collection/CRAZY FROGthemostimportant",
+  },
+  {
+    id: 2,
+    name: "ORDINA PRODOTTI DA CRAI",
+    image: "https://cdn.freebiesupply.com/logos/large/2x/crai-logo-png-transparent.png",
+    description: "LUN - SAB: 8:00 - 18:00 / DOM: 8:00-14:00",
+    link: "https://opensea.io/collection/PERV",
+  },
+  {
+    id: 3,
+    name: "ORDINA PRODOTTI DA BAR NAZIONALE",
+    image: "https://booxit.it/uploads/restorants/8417bab1-dff4-4553-87d0-5cfe86cb0c7b_thumbnail.jpg",
+    description: "LUN - DOM: 8:00 - 4:00",
+    link: "https://opensea.io/collection/greenCRAZY FROG",
+  },
+  {
+    id: 4,
+    name: "ORDINA PRODOTTI DA FURHANO FURANO BAHARI",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKeqZXyDaE96Zn8MXW0H6twS1Mth-jgP0Y1g&usqp=CAU",
+    description: "LUN - SAB: 8:00 - 18:00 / DOM: 8:00-14:00",
+    link: "https://opensea.io/collection/orangewarrioirs",
+  },
+  {
+    id: 5,
+    name: "ORDINA PRODOTTI DA MOOD SOCIAL CLUB",
+    image: "https://10619-2.s.cdn12.com/rests/original/307_513639766.jpg",
+    description: "LUN - SAB: 8:00 - 18:00 / DOM: 8:00-14:00",
+    link: "https://opensea.io/collection/purple",
+  },
+  {
+    id: 6,
+    name: "ORDINA PRODOTTI DA NERO CAFFE'",
+    image: "https://img.italiaonline.it/0WO5p000003PFRMGA4_t650.png",
+    description: "LUN - SAB: 8:00 - 18:00 / DOM: 8:00-14:00",
+    link: "https://opensea.io/collection/blue",
+  },
+  {
+    id: 7,
+    name: "ORDINA PRODOTTI DA IL GALEONE",
+    image: "https://kardup.it/uploads/pwa/40fe5c2dea9366352bf32811e0b10632.jpg",
+    description: "LUN - SAB: 8:00 - 18:00 / DOM: 8:00-14:00",
+    link: "https://opensea.io/collection/CRAZY FROG-gold-",
+  },
+  {
+    id: 8,
+    name: "ORDINA PRODOTTI DA BEERMANIA",
+    image: "https://beermaniaagropoli.it/wp-content/uploads/2019/02/Beermania-Agropoli.png",
+    description: "LUN - SAB: 8:00 - 18:00 / DOM: 8:00-14:00",
+    link: "https://opensea.io/collection/fashionmuseum",
+  },
+];
