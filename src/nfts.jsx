@@ -44,7 +44,7 @@ export const nfts = [
   {
     id: 7,
     name: "ORDINA PRODOTTI DA IL GALEONE",
-    image: "https://lh3.googleusercontent.com/proxy/Q3SCUNi7Obdpkz_HWaKLnOf8q-9W1UXY6x8uoNG73D8ZIZ-ikGhZN9Dra-1axCA-G3N89PfIOf5fMEPA0lMkPgPuxyEKgUo",
+    image: "https://kardup.it/uploads/pwa/40fe5c2dea9366352bf32811e0b10632.jpg",
     description: "LUN - SAB: 8:00 - 18:00 / DOM: 8:00-14:00",
     link: "https://opensea.io/collection/CRAZY FROG-gold-",
   },
