@@ -48,7 +48,10 @@
   justify-content: center;
   color:white;
 }
-
+.prodotto{
+  display:inline-block;
+  width:25%;
+}
 .nft-modal-content {
   background-color: var(--gold);
   padding: 40px;
@@ -62,8 +65,10 @@
   height:400px;
 }
 #cardiModal{
-  width:250px;
-  height:400px;
+  width:25%;
+}
+h2{
+  font-size:1em;
 }
 .nft-modal-content img {
   max-width: 30%;

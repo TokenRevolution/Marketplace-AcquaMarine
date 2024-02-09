@@ -28,15 +28,17 @@ class NFT extends React.Component {
     return (
       <div>
         <h1>Ecommerce AcquaMarine</h1>
+         {catalogo.map((catalogo) => (
         <div className="nft-grid">
           {nfts.map((nft) => (
             <NftCard
               key={nft.id}
               nft={nft}
-              onClick={() => this.handleOpenModal(nft)}
+              onClick={() => this.handleOpenModal(catalogo)}
             />
           ))}
         </div>
+          ))}
         {this.state.showModal && (
           <NftModal
             catalogo={this.state.selectedNft}

@@ -3,7 +3,7 @@ export const catalogo = [
     id: 1,
     name: "Ferramenta",
     image: "https://cdn-icons-png.flaticon.com/512/6411/6411727.png",
-    description: "LUN - SAB: 8:00 - 18:00 / DOM: 8:00-14:00",
+    description: "Prezzo € 10 Cad.",
     link: "https://opensea.io/collection/CRAZY FROGthemostimportant",
   },
   {
