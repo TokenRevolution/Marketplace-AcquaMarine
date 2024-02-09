@@ -2,7 +2,7 @@ export const catalogo = [
   {
     id: 1,
     name: "Ferramenta",
-    image: "https://cdn-icons-png.flaticon.com/512/6411/6411727.png",
+    image: "src/ACQUAMARINE-removebg-preview.png",
     description: "Prezzo € 10 Cad.",
     link: "https://opensea.io/collection/CRAZY FROGthemostimportant",
   },

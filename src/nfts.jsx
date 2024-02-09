@@ -2,7 +2,7 @@ export const nfts = [
   {
     id: 1,
     name: "ORDINA PRODOTTI DA ACQUAMARINE",
-    image: "https://cdn-icons-png.flaticon.com/512/6411/6411727.png",
+    image: "src/ACQUAMARINE-removebg-preview.png",
     description: "LUN - SAB: 8:00 - 18:00 / DOM: 8:00-14:00",
     link: "https://opensea.io/collection/CRAZY FROGthemostimportant",
   },
