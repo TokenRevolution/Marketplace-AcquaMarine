@@ -11,6 +11,7 @@ const NftModal = ({ catalogo, onClose }) => {
         </button>
         <br></br>
         <br></br>
+        <div className="catalogo-scroll">
         <div className="prodotto">
         <img id="cardiModal" src={catalogo.image} alt={catalogo.name} />
         <h2>{catalogo.name}</h2>
@@ -49,6 +50,7 @@ const NftModal = ({ catalogo, onClose }) => {
         </div>
       </div>
     </div>
+    </div> 
   );
 };
 

@@ -89,9 +89,6 @@ background: rgb(255, 255, 255, 0.5);
 }
 
 div {
-margin: 20px;
-padding: 20px;
-border-radius: 25px;
 }
 
 #scroll {
@@ -569,9 +566,6 @@ h1 {
 font-size: 1.5em !important;
 }
 div {
-border-radius: 25px;
-width: 100%;
-margin-left: -5%;
 }
 #claim {
 width: 200px !important;
